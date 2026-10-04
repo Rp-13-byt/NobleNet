@@ -1,0 +1,30 @@
+{
+  "name": "noblenet",
+  "version": "1.0.0",
+  "description": "NobleNet – An Intelligent NGO Management, Donation & Volunteer Engagement Platform",
+  "private": true,
+  "workspaces": [
+    "frontend",
+    "backend"
+  ],
+  "scripts": {
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "test:backend": "cd backend && npm test",
+    "build:frontend": "cd frontend && npm run build",
+    "build:backend": "cd backend && npm run build"
+  },
+  "keywords": [
+    "crowdfunding",
+    "ngo-management",
+    "social-impact",
+    "donations",
+    "volunteering",
+    "react",
+    "nodejs",
+    "mongodb",
+    "socketio"
+  ],
+  "author": "Rp-13-byt",
+  "license": "ISC"
+}
